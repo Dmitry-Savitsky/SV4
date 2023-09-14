@@ -10,6 +10,50 @@ body {
     margin: 0 auto;
 }
 
+.nav__link:hover {
+    color: #18d441;
+    text-shadow: 0 0 1px #28532e;
+    cursor: pointer;
+}
+
+.header__title:hover{
+    scale: 105%;
+    color: #275331;
+    text-shadow: 0 0 1px #28532e;
+    cursor: pointer;
+}
+
+.login:hover{
+    color: #697a6d;
+    text-shadow: 0 0 1px #28532e;
+    cursor: pointer;
+}
+
+.header__btn:hover {
+    scale: 105%;
+    background-color: #697a6d;
+    cursor: pointer;
+}
+
+.email__button:hover{
+    color: #697a6d;
+    text-shadow: 0 0 1px #28532e;
+    cursor: pointer;
+}
+
+.learn-more:hover{
+    color: #697a6d;
+    text-shadow: 0 0 1px #28532e;
+    cursor: pointer;
+}
+
+.intro__btn_1:hover, .intro__btn_2:hover{
+    scale: 105%;
+    color: #275331;
+    text-shadow: 0 0 1px #28532e;
+    cursor: pointer;
+}
+
 .main__container {
     background-color: #fff;
     height: 100%;
@@ -66,11 +110,6 @@ nav {
     font-weight: 600;
     letter-spacing: 0.2px;
     transition: .2s;
-}
-
-.header__btn:hover {
-    scale: 105%;
-    background-color: #BDBDBD;
 }
 
 .header__btn svg {
@@ -428,7 +467,7 @@ nav {
     background-color: #FFF2F3;
     padding: 225px 195px;
     text-align: center;
-    
+
 }
 
 .email__suptitle {
@@ -546,7 +585,7 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer__column-right .column__element  {
+.footer__column-right .column__element {
     margin-left: 10px;
 }
 
@@ -582,27 +621,34 @@ footer {
     display: none;
 }
 
-@media (max-width: 1441px){
-    .course__cards{
+@media (max-width: 1441px) {
+    .course__cards {
         margin-top: 81px;
     }
 }
 
 @media (max-width: 768px) {
 
-    .header__inner{
+    .header__inner {
         width: 100%;
         padding: 19px 143px;
     }
-    
-    .intro__title, .intro__subtitle, .intro__suptitle, .approdable__title, .approdable__subtitle, .text__title, .text__suptitle{
+
+    .intro__title,
+    .intro__subtitle,
+    .intro__suptitle,
+    .approdable__title,
+    .approdable__subtitle,
+    .text__title,
+    .text__suptitle {
         letter-spacing: 0.5px;
     }
 
-    .intro__img{
+    .intro__img {
         scale: 1;
         margin-left: 504px;
     }
+
     nav {
         display: none;
     }
@@ -647,6 +693,7 @@ footer {
         height: 70px;
         font-size: 25px;
     }
+
     .intro__btn_2 {
         margin-bottom: 20px;
         width: 250px;
@@ -692,7 +739,7 @@ footer {
 
     .text__subtitle {
         font-size: 25px;
-        line-height: 30px; 
+        line-height: 30px;
         margin: 0 auto;
         width: 80%;
     }
@@ -730,7 +777,7 @@ footer {
 
     .email__subtitle {
         font-size: 25px;
-        line-height: 30px; 
+        line-height: 30px;
         margin: 0 auto;
         width: 80%;
         margin-bottom: 50px;
@@ -748,7 +795,7 @@ footer {
         display: none;
     }
 
-    footer{
+    footer {
         padding: 115px 195px;
     }
 
@@ -775,7 +822,7 @@ footer {
         scale: 150%;
     }
 
-    .intro{
+    .intro {
         padding-top: 10px;
     }
 
@@ -798,11 +845,11 @@ footer {
 
     .intro__btns {
         scale: 160%;
-        margin-top:65px;
+        margin-top: 65px;
         margin-left: 110px;
     }
 
-    .approdable__title{
+    .approdable__title {
         width: 370px;
         margin-bottom: 30px;
     }
@@ -819,7 +866,7 @@ footer {
 
     .text__subtitle {
         font-size: 30px;
-        line-height: 50px; 
+        line-height: 50px;
         margin: 0 auto;
         width: 80%;
     }
@@ -834,7 +881,7 @@ footer {
         width: 150px;
     }
 
-    .container{
+    .container {
         width: 1074px;
     }
 
@@ -855,7 +902,7 @@ footer {
         font-size: 30px;
     }
 
-    .course__cards{
+    .course__cards {
         padding-left: 15px;
     }
 
@@ -875,7 +922,7 @@ footer {
 
     .email__subtitle {
         font-size: 30px;
-        line-height: 50px; 
+        line-height: 50px;
         margin: 0 auto;
         width: 80%;
     }
