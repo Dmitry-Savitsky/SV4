@@ -215,7 +215,23 @@ nav {
     z-index: 1000;
     display: flex;
     justify-content: space-between;
-    width: 1045px;
+    width: 1080px;
+}
+
+.cards::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/card.png); /* Image to be displayed on hover */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s; /* Add a smooth transition effect */
+}
+
+.cards:hover::after {
+    opacity: 1; /* Show the new image on hover */
 }
 
 
