@@ -10,20 +10,39 @@ body {
     margin: 0 auto;
 }
 
+.player {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 0;
+}
+
+.player__text {
+    color: #252B42;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+
 .nav__link:hover {
     color: #18d441;
     text-shadow: 0 0 1px #28532e;
     cursor: pointer;
 }
 
-.header__title:hover{
+.header__title:hover {
     scale: 105%;
     color: #275331;
     text-shadow: 0 0 1px #28532e;
     cursor: pointer;
 }
 
-.login:hover{
+.login:hover {
     color: #697a6d;
     text-shadow: 0 0 1px #28532e;
     cursor: pointer;
@@ -35,19 +54,20 @@ body {
     cursor: pointer;
 }
 
-.email__button:hover{
+.email__button:hover {
     color: #697a6d;
     text-shadow: 0 0 1px #28532e;
     cursor: pointer;
 }
 
-.learn-more:hover{
+.learn-more:hover {
     color: #697a6d;
     text-shadow: 0 0 1px #28532e;
     cursor: pointer;
 }
 
-.intro__btn_1:hover, .intro__btn_2:hover{
+.intro__btn_1:hover,
+.intro__btn_2:hover {
     scale: 105%;
     color: #275331;
     text-shadow: 0 0 1px #28532e;
@@ -197,6 +217,7 @@ nav {
     justify-content: space-between;
     width: 1045px;
 }
+
 
 .approdable {
     margin-top: 160px;
